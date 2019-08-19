@@ -1,0 +1,6 @@
+version: "2.2"
+services:
+  tesseract-server:
+    image: dmansurov83/tesseract-server
+    ports:
+      - "42000:42000"
